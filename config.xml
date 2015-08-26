@@ -2,11 +2,31 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.app.assuranceAutoTemporaire" version="0.0.1">
     <name>assuranceAutoTemporaire</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        An application which provides some temporary insurances 
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="contact@assuranceendirect.com" href="http://www.assurance-voiture-temporaire-provisoire.com/">
+        Assurance en Direct Team
     </author>
+	<preference name="SplashScreen" value="screen"/>
+	<preference name="SplashScreenDelay" value="3000"/>
+	<platform name="android">
+              <icon density="ldpi" src="www/img/assurance-auto-temporaire-icon-ldpi.png"/>
+              <icon density="mdpi" src="www/img/assurance-auto-temporaire-icon-mdpi.png"/>
+              <icon density="hdpi" src="www/img/assurance-auto-temporaire-hdpi.png"/>
+              <icon density="xhdpi" src="www/img/assurance-auto-temporaire-xhdpi.png"/>
+    </platform>
+	<platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+		<splash density="land-hdpi" src="www/img/assurance-auto-temporaire-hdpi-land.png"/>
+		<splash density="land-ldpi" src="www/img/assurance-auto-temporaire-ldpi-land.png"/>
+		<splash density="land-mdpi" src="www/img/assurance-auto-temporaire-mdpi-land.png"/>
+		<splash density="land-xhdpi" src="www/img/assurance-auto-temporaire-xhdpi-land.png"/>
+
+		<splash density="port-hdpi" src="www/img/assurance-auto-temporaire-hdpi-portrait.png"/>
+		<splash density="port-ldpi" src="www/img/assurance-auto-temporaire-ldpi-portrait.png"/>
+		<splash density="port-mdpi" src="www/img/assurance-auto-temporaire-mdpi-portrait.png"/>
+		<splash density="port-xhdpi" src="www/img/assurance-auto-temporaire-xhdpi-portrait.png"/>
+	</platform>
     <content src="index.html"/>
     <plugin name="cordova-plugin-whitelist" version="1"/>
     <access origin="*"/>
